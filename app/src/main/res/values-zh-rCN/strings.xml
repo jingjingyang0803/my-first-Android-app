@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">任务清单</string>
+    <string name="hint_message">用户ID (1~10)：</string>
+    <string name="send_email">发送邮件</string>
+    <string name="make_a_call">拨打电话</string>
+    <string name="go">确认</string>
+    <string name="user_id_display">用户ID</string>
+    <string name="back">返回</string>
+    <string name="check_tasks_undone">查看待完成任务</string>
+    <string name="tasks_to_do">待办事项</string>
+</resources>

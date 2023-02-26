@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tehtävälista</string>
+    <string name="hint_message">Käyttäjätunnus (1-10):</string>
+    <string name="send_email">Lähettää sähköpostia</string>
+    <string name="make_a_call">Soita</string>
+    <string name="go">Mennä</string>
+    <string name="user_id_display">Käyttäjätunnus:</string>
+    <string name="back">Takaisin</string>
+    <string name="check_tasks_undone">Tarkista peruutetut tehtävät</string>
+    <string name="tasks_to_do">Tehtäviä</string>
+</resources>

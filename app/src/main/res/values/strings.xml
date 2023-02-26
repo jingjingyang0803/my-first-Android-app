@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Todo List</string>
+    <string name="hint_message">User Id (1-10):</string>
+    <string name="send_email">Send Email</string>
+    <string name="make_a_call">Make a Call</string>
+    <string name="go">Go</string>
+    <string name="user_id_display">User Id:</string>
+    <string name="back">Back</string>
+    <string name="check_tasks_undone">Check tasks undone</string>
+    <string name="tasks_to_do">Tasks To Do</string>
+</resources>
