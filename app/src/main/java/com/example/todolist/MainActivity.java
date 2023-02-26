@@ -38,13 +38,15 @@ public class MainActivity extends AppCompatActivity {
         // Instantiate the RequestQueue.
         queue = Volley.newRequestQueue(this);
 
+        Intent intent = getIntent();
+        userid = intent.getIntExtra("USER_ID", 1);
+
         TextView information = findViewById(R.id.userInfoTextView);
         information.setText("User Id: " + userid +
                 "\nName: " + name +
                 "\nEmail: " + email +
                 "\nPhone: " + phone +
                 "\nCity: " + city);
-
     }
 
     @Override

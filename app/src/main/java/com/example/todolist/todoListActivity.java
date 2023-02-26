@@ -70,15 +70,19 @@ public class todoListActivity extends AppCompatActivity {
             e.printStackTrace();
         }
         String result = "";
+        int counter = 1;
         TextView todolistTextView = findViewById(R.id.listTextView);
         for (String todo : todolist) {
-            result += todo + "\n\n";
+            result += counter + ".  " + todo + "\n\n";
+            counter++;
         }
         todolistTextView.setText(result);
     }
 
     public void openMainActivity(View view) {
         Intent openMain = new Intent(this, MainActivity.class);
+
+        openMain.putExtra("USER_ID", userid);
         startActivity(openMain);
     }
 }
