@@ -92,7 +92,8 @@ public class MainActivity extends AppCompatActivity {
         EditText editTextUserID = findViewById(R.id.userIdEditView);
         String idAsString = editTextUserID.getText().toString();
         int userid_onsearch = 1;
-        if (idAsString == null) {
+
+        if (idAsString.equalsIgnoreCase("")) {
             Toast.makeText(MainActivity.this, "Enter a user ID...", Toast.LENGTH_SHORT).show();
         } else {
             userid_onsearch = Integer.valueOf(idAsString);
@@ -123,7 +124,6 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "User Not Found..", Toast.LENGTH_SHORT).show();
             }
         }
-
     }
 
     public void makeCall(View view) {
